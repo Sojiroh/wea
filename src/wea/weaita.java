@@ -13,7 +13,7 @@ import java.nio.file.Paths;
 public class weaita {
 	
 	public static void main(String[] args) throws Exception {
-		String pathDir = "/Users/Sojiroh/Downloads/xmlcesion";
+		String pathDir = "C:\\Users\\Sojiroh\\Downloads\\jc2";
 		Path pathDirectorio = Paths.get(pathDir);
 		try (DirectoryStream<Path> pathFiles = Files.newDirectoryStream(pathDirectorio)) {
 			
